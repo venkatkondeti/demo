@@ -1,0 +1,5 @@
+npm config set proxy http://example.com:8080
+npm config set https-proxy http://example.com:8080  (https://stackoverflow.com/questions/39592908/error-getaddrinfo-enotfound-registry-npmjs-org-registry-npmjs-org443)
+
+
+npm config set registry http://registry.npmjs.org/ --global   (https://stackoverflow.com/questions/40000952/unable-to-verify-the-first-certificate-when-running-npm-install)
